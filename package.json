@@ -10,10 +10,10 @@
   "author": "jamin",
   "main": "lib/index.js",
   "scripts": {
-    "lint": "eslint .",
     "test": "mocha tests --recursive"
   },
   "dependencies": {
+    "@typescript-eslint/parser": "^5.30.0",
     "requireindex": "^1.2.0"
   },
   "devDependencies": {
